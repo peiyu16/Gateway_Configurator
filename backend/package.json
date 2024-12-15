@@ -1,0 +1,29 @@
+{
+  "name": "config-backend-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@serialport/parser-readline": "^12.0.0",
+    "ads1x15": "^1.2.0",
+    "cors": "^2.8.5",
+    "execa": "^9.5.1",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "modbus-serial": "^8.0.17",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.10.0",
+    "mqtt": "^5.10.1",
+    "multer": "^1.4.5-lts.1",
+    "onoff": "^6.0.3",
+    "path": "^0.12.7",
+    "serialport": "^12.0.0",
+    "ws": "^8.18.0"
+  }
+}
